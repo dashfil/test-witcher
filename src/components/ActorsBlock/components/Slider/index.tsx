@@ -138,7 +138,7 @@ const Slider = () => {
         <p className="mb-6 lg:px-[120px] md:px-[64px] px-4 lg:text-[40px] md:text-[32px] text-[28px] font-semibold">
           Актерский состав
         </p>
-        <div className="lg:px-[120px] md:px-[64px] px-4">
+        <div className="lg:px-[120px] md:px-[64px] px-4 flex-none">
           <Button
             isIconOnly
             onPress={handleBack}

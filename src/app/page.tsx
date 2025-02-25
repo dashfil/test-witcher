@@ -9,15 +9,12 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
-      <Header />
       <MainBlock />
       <main className="flex min-h-screen flex-col items-center justify-between lg:px-[120px] md:px-[64px] px-4 gap-[72px]">
         <ActorsBlock />
         <PhotosBlock />
         <MapBlock />
-        
       </main>
-      <Footer />
     </>
   );
 }

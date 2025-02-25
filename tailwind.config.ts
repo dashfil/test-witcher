@@ -27,6 +27,18 @@ const config: Config = {
       lightGrey: '#bababa',
     }
   },
-  plugins: [heroui()],
+  darkMode: 'class',
+  plugins: [heroui({
+    themes: {
+      dark: {
+        colors: {
+          danger: {
+            100: '#2d1c1c',
+            DEFAULT: '#FF5858',
+          },
+        },
+      },
+    }
+  })],
 }
 export default config
